@@ -87,3 +87,20 @@ footer{
 .imagenUno{
     margin: 2%;
 }
+.primerLegales{
+    text-align: center;
+    margin-top: 2%;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.tituloLegales{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+.textoLegales{
+    text-align:left;
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
