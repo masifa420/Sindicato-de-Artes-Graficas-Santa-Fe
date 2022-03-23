@@ -5,63 +5,285 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="cssEstilo/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Sind. Art. Graficas SF</title>
 </head>
 
 <body class="bodyInicial">
     <section>
-        <article>
-            <header class="cabezera">
-                <div class="cabezeraContenedor"><h1 class="cabezeraTexto">Sindicato de Artes Grafiás Santa Fe</h1></div>
-            </header>
-        </article>
-    </section>
-    <section>
-        <article class="botonesPage">
-            <div class="botonPageIndividual"><a href="./index.html">INICIO</a></div>
-            <div class="botonPageIndividual"><a href="../Pages/Legales.html">LEGALES</a></div>
-            <div class="botonPageIndividual"><a href="../Pages/Escuelas.html">ESCUELAS</a></div>
-            <div class="botonPageIndividual"><a href="../Pages/Imprentas.html">IMPRENTAS</a></div>
-            <div class="botonPageIndividual"><a href="../Pages/Beneficios.html">BENEFICIOS</a></div>
-        </article>
+        <header class="cabezera">
+            <div class="cabezeraContenedor">
+                <h1 class="cabezeraTexto">Sindicato de Artes Grafiás Santa Fe</h1>
+            </div>
+        </header>
     </section>
     <section>
         <article>
-            <div class="noticiaUno">
-                <div class="primerSeccion"><img src="./img/carteleraSindicato.png" alt="Sindicato de Artes Gráficas de Santa Fé"></div>
-                <div class="textoDeImagen"><h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia quam deserunt dignissimos consequatur iusto velit dolores facere quaerat fugit in eos, quos vel consequuntur quibusdam dolorem quidem quo, voluptate sequi.</h1></div>
+            <div class="topnav" id="myTopnav">
+                <a href="./index.html" class="active">Inicio</a>
+                <a href="./Pages/Legales.html">Legales</a>
+                <a href="./Pages/Imprentas.html">Imprentas</a>
+                <a href="./Pages/Beneficios.html">Beneficios</a>
+                <a href="./Pages/jubilados.html">Jubilados</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Instituciones
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="./Pages/Escuelas.html#escuela1304">1304 "Paz, Pan y Trabajo"</a>
+                        <a href="./Pages/Escuelas.html#escuela1502">1502 "San Martin de Porres"</a>
+                        <a href="./Pages/Escuelas.html#escuela2058">2058 "7 de Mayo"</a>
+                        <a href="./Pages/Escuelas.html#escuela3148">3148 "1roº de Mayo"</a>
+                        <a href="./Pages/Escuelas.html#escuela3166">3166 "8 de Marzo"</a>
+                        <a href="./Pages/Escuelas.html#escuela4035">4035 "Brigadier General Estanislao Lopez"</a>
+                        <a href="./Pages/Escuelas.html#escuela8245">8025 "Liceo Argentino de Navacion Fluvial"</a>
+                    </div>
+                </div>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
             </div>
         </article>
     </section>
-    <section>
-        <article>
-            <div class="noticiaUno">
-                <div class="primerSeccion"><img src="./img/carteleraSindicato.png" alt="Sindicato de Artes Gráficas de Santa Fé"></div>
-                <div class="textoDeImagen"><h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia quam deserunt dignissimos consequatur iusto velit dolores facere quaerat fugit in eos, quos vel consequuntur quibusdam dolorem quidem quo, voluptate sequi.</h1></div>
-            </div>
-        </article>
+    <section class="">
+        <section class="seccionNoticias">
+            <article class="dos">
+                <div class="container mt-3 noticiaPrimera">
+                    <div class="card laImagenNoticia">
+                        <img class="card-img-top" src="./img/carteleraSindicato.png" alt="Card image"
+                            style="width:100%">
+                        <div class="card-body fondoDeCard">
+                            <h4 class="card-title">Sindicato de Artes Gráficas de Santa Fe</h4>
+                            <p class="card-text">Recordemos nuestros principios</p>
+                            <details>
+                                <p>El Sindicato de Artes Gráficas de Santa Fe, creado el 28 de Enero de 1940.
+                                    La historia comienza con la presencia de los antecesores que conformaron las
+                                    primeras
+                                    Comisiones
+                                    Directivas; ellos nos han legado el ejemplo de la lucha permanente, la templanza y
+                                    tenacidad
+                                    para perseguir la defensa de logradas conquistas históricas y los derechos de los
+                                    trabajadores
+                                    gráficos y sus grupos familiares.
+                                    Fiel a las convicciones de quienes le mostraron el camino a seguir, se preocupó por
+                                    lograr
+                                    llevar adelante diversas campañas en ayuda de los trabajadores que más lo
+                                    necesitaban.
+                                    Soñó con especializar a los trabajadores y a sus hijos. La primera Escuela Técnica
+                                    cuya
+                                    Entidad
+                                    Propietaria es el Sindicato de Artes Gráficas de Santa Fe, a la que instituyó el
+                                    nombre
+                                    "7 de
+                                    Mayo", fecha en la que precisamente los trabajadores gráficos recordamos nuestro
+                                    día.
+                                    Nos constituimos en pleno orgulloso de nuestro pasado y presente. Tomamos la
+                                    responsabilidad que
+                                    conlleva este legado y continuar la obra de nuestros socios, defendiendo los
+                                    derechos de
+                                    todos
+                                    los trabajadores, ayudando a sus familias, basándonos en el principio solidario de
+                                    nuestro
+                                    Estatuto. La Organización Sindical es la Entidad Propietaria de nueve
+                                    Establecimientos
+                                    Educativos distribuidos por toda la ciudad de San ta Fe de la Vera Cruz, todas ellas
+                                    brindándoles la posibilidad de aprender oficios para jóvenes y adultos.
+                                    Orgullosos de las conquistas laborales obtenidas con respecto a los trabajadores
+                                    graticos
+                                    priorizando las luchas por las fuentes de trabajo de cada uno de los trabajadore.
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+                <div class="container mt-3 noticiaPrimera">
+                    <div class="card laImagenNoticia">
+                        <img class="card-img-top" src="./img/carteleraSindicato.png" alt="Card image"
+                            style="width:100%">
+                        <div class="card-body fondoDeCard">
+                            <h4 class="card-title">Sindicato de Artes Gráficas de Santa Fe</h4>
+                            <p class="card-text">Recordemos nuestros principios</p>
+                            <details>
+                                <p>El Sindicato de Artes Gráficas de Santa Fe, creado el 28 de Enero de 1940.
+                                    La historia comienza con la presencia de los antecesores que conformaron las
+                                    primeras
+                                    Comisiones
+                                    Directivas; ellos nos han legado el ejemplo de la lucha permanente, la templanza y
+                                    tenacidad
+                                    para perseguir la defensa de logradas conquistas históricas y los derechos de los
+                                    trabajadores
+                                    gráficos y sus grupos familiares.
+                                    Fiel a las convicciones de quienes le mostraron el camino a seguir, se preocupó por
+                                    lograr
+                                    llevar adelante diversas campañas en ayuda de los trabajadores que más lo
+                                    necesitaban.
+                                    Soñó con especializar a los trabajadores y a sus hijos. La primera Escuela Técnica
+                                    cuya
+                                    Entidad
+                                    Propietaria es el Sindicato de Artes Gráficas de Santa Fe, a la que instituyó el
+                                    nombre
+                                    "7 de
+                                    Mayo", fecha en la que precisamente los trabajadores gráficos recordamos nuestro
+                                    día.
+                                    Nos constituimos en pleno orgulloso de nuestro pasado y presente. Tomamos la
+                                    responsabilidad que
+                                    conlleva este legado y continuar la obra de nuestros socios, defendiendo los
+                                    derechos de
+                                    todos
+                                    los trabajadores, ayudando a sus familias, basándonos en el principio solidario de
+                                    nuestro
+                                    Estatuto. La Organización Sindical es la Entidad Propietaria de nueve
+                                    Establecimientos
+                                    Educativos distribuidos por toda la ciudad de San ta Fe de la Vera Cruz, todas ellas
+                                    brindándoles la posibilidad de aprender oficios para jóvenes y adultos.
+                                    Orgullosos de las conquistas laborales obtenidas con respecto a los trabajadores
+                                    graticos
+                                    priorizando las luchas por las fuentes de trabajo de cada uno de los trabajadore.
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article class="dos">
+                <div class="container mt-3 noticiaPrimera">
+                    <div class="card laImagenNoticia">
+                        <img class="card-img-top" src="./img/carteleraSindicato.png" alt="Card image"
+                            style="width:100%">
+                        <div class="card-body fondoDeCard">
+                            <h4 class="card-title">Sindicato de Artes Gráficas de Santa Fe</h4>
+                            <p class="card-text">Recordemos nuestros principios</p>
+                            <details>
+                                <p>El Sindicato de Artes Gráficas de Santa Fe, creado el 28 de Enero de 1940.
+                                    La historia comienza con la presencia de los antecesores que conformaron las
+                                    primeras
+                                    Comisiones
+                                    Directivas; ellos nos han legado el ejemplo de la lucha permanente, la templanza y
+                                    tenacidad
+                                    para perseguir la defensa de logradas conquistas históricas y los derechos de los
+                                    trabajadores
+                                    gráficos y sus grupos familiares.
+                                    Fiel a las convicciones de quienes le mostraron el camino a seguir, se preocupó por
+                                    lograr
+                                    llevar adelante diversas campañas en ayuda de los trabajadores que más lo
+                                    necesitaban.
+                                    Soñó con especializar a los trabajadores y a sus hijos. La primera Escuela Técnica
+                                    cuya
+                                    Entidad
+                                    Propietaria es el Sindicato de Artes Gráficas de Santa Fe, a la que instituyó el
+                                    nombre
+                                    "7 de
+                                    Mayo", fecha en la que precisamente los trabajadores gráficos recordamos nuestro
+                                    día.
+                                    Nos constituimos en pleno orgulloso de nuestro pasado y presente. Tomamos la
+                                    responsabilidad que
+                                    conlleva este legado y continuar la obra de nuestros socios, defendiendo los
+                                    derechos de
+                                    todos
+                                    los trabajadores, ayudando a sus familias, basándonos en el principio solidario de
+                                    nuestro
+                                    Estatuto. La Organización Sindical es la Entidad Propietaria de nueve
+                                    Establecimientos
+                                    Educativos distribuidos por toda la ciudad de San ta Fe de la Vera Cruz, todas ellas
+                                    brindándoles la posibilidad de aprender oficios para jóvenes y adultos.
+                                    Orgullosos de las conquistas laborales obtenidas con respecto a los trabajadores
+                                    graticos
+                                    priorizando las luchas por las fuentes de trabajo de cada uno de los trabajadore.
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+                <div class="container mt-3 noticiaPrimera">
+                    <div class="card laImagenNoticia">
+                        <img class="card-img-top" src="./img/carteleraSindicato.png" alt="Card image"
+                            style="width:100%">
+                        <div class="card-body fondoDeCard">
+                            <h4 class="card-title">Sindicato de Artes Gráficas de Santa Fe</h4>
+                            <p class="card-text">Recordemos nuestros principios</p>
+                            <details>
+                                <p>El Sindicato de Artes Gráficas de Santa Fe, creado el 28 de Enero de 1940.
+                                    La historia comienza con la presencia de los antecesores que conformaron las
+                                    primeras
+                                    Comisiones
+                                    Directivas; ellos nos han legado el ejemplo de la lucha permanente, la templanza y
+                                    tenacidad
+                                    para perseguir la defensa de logradas conquistas históricas y los derechos de los
+                                    trabajadores
+                                    gráficos y sus grupos familiares.
+                                    Fiel a las convicciones de quienes le mostraron el camino a seguir, se preocupó por
+                                    lograr
+                                    llevar adelante diversas campañas en ayuda de los trabajadores que más lo
+                                    necesitaban.
+                                    Soñó con especializar a los trabajadores y a sus hijos. La primera Escuela Técnica
+                                    cuya
+                                    Entidad
+                                    Propietaria es el Sindicato de Artes Gráficas de Santa Fe, a la que instituyó el
+                                    nombre
+                                    "7 de
+                                    Mayo", fecha en la que precisamente los trabajadores gráficos recordamos nuestro
+                                    día.
+                                    Nos constituimos en pleno orgulloso de nuestro pasado y presente. Tomamos la
+                                    responsabilidad que
+                                    conlleva este legado y continuar la obra de nuestros socios, defendiendo los
+                                    derechos de
+                                    todos
+                                    los trabajadores, ayudando a sus familias, basándonos en el principio solidario de
+                                    nuestro
+                                    Estatuto. La Organización Sindical es la Entidad Propietaria de nueve
+                                    Establecimientos
+                                    Educativos distribuidos por toda la ciudad de San ta Fe de la Vera Cruz, todas ellas
+                                    brindándoles la posibilidad de aprender oficios para jóvenes y adultos.
+                                    Orgullosos de las conquistas laborales obtenidas con respecto a los trabajadores
+                                    graticos
+                                    priorizando las luchas por las fuentes de trabajo de cada uno de los trabajadore.
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
     </section>
     <section>
         <article class="galeriaIndex">
-            <div class="imagenUno"><img src="./img/carteleraSindicato.png" alt=""></div>
-            <div class="imagenUno"><img src="./img/carteleraSindicato.png" alt=""></div>
-            <div class="imagenUno"><img src="./img/carteleraSindicato.png" alt=""></div>
+            <div class="imagenUno"><img class="zoom" src="./img/carteleraSindicato.png" alt=""></div>
+            <div class="imagenUno"><img class="zoom" src="./img/carteleraSindicato.png" alt=""></div>
+            <div class="imagenUno"><img class="zoom" src="./img/carteleraSindicato.png" alt=""></div>
         </article>
     </section>
-    <section>
-        <article>
-            <div class="noticiaUno">
-                <div class="primerSeccion"><img src="./img/carteleraSindicato.png" alt="Sindicato de Artes Gráficas de Santa Fé"></div>
-                <div class="textoDeImagen"><h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia quam deserunt dignissimos consequatur iusto velit dolores facere quaerat fugit in eos, quos vel consequuntur quibusdam dolorem quidem quo, voluptate sequi.</h1></div>
-            </div>
-        </article>
-    </section>
-    <section>
-        <article>
-            <footer><h1>Desarrollo y diseño del sitio realizado por Maximiliano farias </h1></footer>
-        </article>
-    </section>
+    <footer>
+        <h1>Desarrollo y diseño del sitio realizado por Maximiliano Farias </h1>
+        <h2>Sindicato de Artes Grafiás de Santa Fé</h2>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
 </body>
 
 </html>
